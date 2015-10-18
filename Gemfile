@@ -1,11 +1,13 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 gem 'bootstrap-sass',       '3.2.0.0'
 # Use sqlite3 as the database for Active Record
-gem 'pg', '0.17.1'
+gem 'sqlite3'
+gem 'rspec-rails'
+gem 'therubyracer', '0.12.2',platforms: :ruby
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.2'
 # Use Uglifier as compressor for JavaScript assets
